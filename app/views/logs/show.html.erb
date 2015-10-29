@@ -3,7 +3,7 @@
 <%= link_to "Add Food", new_log_food_path(@log), id: "new_food_link", remote: true %>
 
 
-<% if @foods.any? %>
+
 
 <table class="table" id="foods">
   <tr>
@@ -11,6 +11,7 @@
     <th>Quantity</th>
     <th>Calories </th>
   </tr>
+<% if @foods.any? %>
   <% @foods.each do |food| %>
     <tr>
       <td id="food_name"><%= food.name %></td>

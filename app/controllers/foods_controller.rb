@@ -15,6 +15,15 @@ class FoodsController < ApplicationController
     end
   end
 
+  def destroy
+    @food = Food.find(params[:id])
+    @food.destroy
+    respond_to do |format|
+    format.html { redirect_to :back }
+    format.js
+    end
+  end
+
 private
   def food_params
     params.require(:food).permit(:name, :quantity, :calories)

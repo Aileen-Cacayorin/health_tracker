@@ -21,6 +21,6 @@ class LogsController < ApplicationController
 
   def show
     @log = Log.find(params[:id])
-    @foods = @log.foods
+    @foods = @log.foods.paginate(:per_page => 10, :page => params[:page])
   end
 end

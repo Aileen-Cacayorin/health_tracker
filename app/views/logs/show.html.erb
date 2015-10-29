@@ -12,11 +12,13 @@
       <th>Calories </th>
     </tr>
   <% if @foods.any? %>
+  <%= will_paginate @foods %>
     <% @foods.each do |food| %>
-      <tr>
+      <tr id="food_<%=food.id%>">
         <td id="food_name"><%= food.name %></td>
         <td id= "food_quantity" ><%= food.quantity %></td>
         <td id= "food_calories"><%= food.calories %></td>
+        <td id= "delete_food<"><%= button_to "Delete", log_food_path(food.log, food), method: :delete, remote: true %></td>
       </tr>
     <% end %>
   </table>

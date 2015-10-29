@@ -2,8 +2,8 @@
 
 <div class="col-md-6">
 
-  <%= link_to "Add Food", new_log_food_path(@log), id: "new_food_link", remote: true %>
 
+  <h3>Calories consumed today: <span id="calories"><%=@log.calories_consumed %></span></h3>
 
   <table class="table" id="foods">
     <tr>
@@ -15,11 +15,11 @@
     <% @foods.each do |food| %>
       <tr>
         <td id="food_name"><%= food.name %></td>
-        <td id = "food_quantity" ><%= food.quantity %></td>
-        <td id = "food_calories"><%= food.calories %></td>
+        <td id= "food_quantity" ><%= food.quantity %></td>
+        <td id= "food_calories"><%= food.calories %></td>
       </tr>
     <% end %>
   </table>
-
-  <% end %>
+<% end %>
+<p><%= link_to "Add Food", new_log_food_path(@log), id: "new_food_link", remote: true %></p>
 </div>

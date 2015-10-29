@@ -21,5 +21,6 @@ class LogsController < ApplicationController
 
   def show
     @log = Log.find(params[:id])
+    @foods = @log.foods
   end
 end

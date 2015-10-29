@@ -1,0 +1,2 @@
+class ExercisesController < AoolicationController
+end

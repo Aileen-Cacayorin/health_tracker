@@ -1,3 +1,12 @@
 <h2>Main User Exercise Log Page</h2>
 
 <%= button_to "New Log", user_logs_path(@user), :method => :post, id: "new_log_button" %>
+
+<% if @logs.any? %>
+  <ul>
+    <% @logs.each do |log| %>
+      <li><%= link_to log.date, log_path(log) %></li>
+    <% end %>
+  </ul>
+
+<% end %>

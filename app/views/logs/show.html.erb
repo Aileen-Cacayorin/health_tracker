@@ -1,1 +1,23 @@
 <h2>This is a new log</h2>
+
+<%= link_to "Add Food", new_log_food_path(@log), id: "new_food_link", remote: true %>
+
+
+<% if @foods.any? %>
+
+<table class="table" id="foods">
+  <tr>
+    <th>Food</th>
+    <th>Quantity</th>
+    <th>Calories </th>
+  </tr>
+  <% @foods.each do |food| %>
+    <tr>
+      <td id="food_name"><%= food.name %></td>
+      <td id = "food_quantity" ><%= food.quantity %></td>
+      <td id = "food_calories"><%= food.calories %></td>
+    </tr>
+  <% end %>
+</table>
+
+<% end %>

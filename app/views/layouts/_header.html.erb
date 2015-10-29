@@ -1,0 +1,15 @@
+ <nav class="navbar navbar-inverse">
+
+        <div class="navbar-header">
+        <%= link_to "Health Tracker", root_path, class: "navbar-brand" %>
+
+        <ul class="nav navbar-nav">
+          <% if user_signed_in? %>
+          <li><%= link_to "#{current_user.email}", user_path(current_user) %></li>
+          <li><%= link_to "logout", destroy_user_session_path, method: :delete %></li>
+          <% else %>
+          <li><%= link_to "login", new_user_session_path %></li>
+          <li><%= link_to "signup", new_user_registration_path %></li>
+          <% end %>
+        </ul>
+      </nav>

@@ -517,6 +517,16 @@
         null,
         null,
         null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
         null,
         null,
         null,
@@ -589,10 +599,80 @@
         null,
         null,
         1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/Guest/Desktop/health_tracker/app/controllers/exercises_controllers.rb": [
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/health_tracker/app/controllers/foods_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/health_tracker/app/controllers/logs_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/app/controllers/static_pages_controller.rb": [
@@ -838,6 +918,22 @@
         1,
         1,
         1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/health_tracker/app/models/meal.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/health_tracker/app/models/workout.rb": [
+        1,
+        1,
+        1,
         null
       ],
       "/Users/Guest/Desktop/health_tracker/spec/models/food_spec.rb": [
@@ -860,14 +956,28 @@
         2,
         null
       ],
+      "/Users/Guest/Desktop/health_tracker/spec/models/meal_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
       "/Users/Guest/Desktop/health_tracker/spec/models/user_spec.rb": [
         1,
         null,
         1,
         2,
         null
+      ],
+      "/Users/Guest/Desktop/health_tracker/spec/models/workout_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1446138509
+    "timestamp": 1446155858
   }
 }

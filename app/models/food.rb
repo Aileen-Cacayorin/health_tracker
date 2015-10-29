@@ -1,5 +1,5 @@
 class Food < ActiveRecord::Base
-  belongs_to :log
+  has_many :meals
 
   validates :name, :presence => true
   validates :quantity, :presence => true

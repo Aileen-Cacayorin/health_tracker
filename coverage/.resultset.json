@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/health_tracker/spec/models/exercise_spec.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/spec/models/exercise_spec.rb": [
         1,
         null,
         1,
@@ -11,7 +11,7 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/spec/rails_helper.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -74,14 +74,14 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/environment.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/health_tracker/config/application.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/application.rb": [
         1,
         null,
         1,
@@ -118,12 +118,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/boot.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/health_tracker/config/environments/test.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/environments/test.rb": [
         1,
         null,
         null,
@@ -167,7 +167,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/assets.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -180,7 +180,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/backtrace_silencers.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -189,12 +189,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/cookies_serializer.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/devise.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -458,13 +458,13 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/filter_parameter_logging.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/inflections.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -482,18 +482,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/mime_types.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/session_store.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/health_tracker/config/initializers/wrap_parameters.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -509,7 +509,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/config/routes.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/config/routes.rb": [
         1,
         1,
         null,
@@ -517,189 +517,16 @@
         null,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/health_tracker/app/models/user.rb": [
         1,
         1,
         null,
         null,
         1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/health_tracker/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
-        null
-      ],
-      "/Users/Guest/Desktop/health_tracker/app/helpers/application_helper.rb": [
         1,
-        null
-      ],
-      "/Users/Guest/Desktop/health_tracker/app/controllers/static_pages_controller.rb": [
-        1,
-        null,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/health_tracker/app/controllers/users/confirmations_controller.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/health_tracker/app/controllers/users/omniauth_callbacks_controller.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/health_tracker/app/controllers/users/passwords_controller.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/health_tracker/app/controllers/users/registrations_controller.rb": [
-        1,
-        null,
-        null,
         null,
         null,
         null,
@@ -758,7 +585,260 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/app/controllers/users/sessions_controller.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/app/models/user.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/exercises_controllers.rb": [
+        1,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/foods_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/logs_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/static_pages_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/users/confirmations_controller.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/users/omniauth_callbacks_controller.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/users/passwords_controller.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/users/registrations_controller.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/users/sessions_controller.rb": [
         1,
         null,
         null,
@@ -785,7 +865,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/app/controllers/users/unlocks_controller.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/users/unlocks_controller.rb": [
         1,
         null,
         null,
@@ -815,7 +895,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/app/models/exercise.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/app/models/exercise.rb": [
         1,
         1,
         null,
@@ -824,7 +904,7 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/app/models/food.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/app/models/food.rb": [
         1,
         1,
         null,
@@ -833,14 +913,18 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/app/models/log.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/app/models/log.rb": [
         1,
         1,
         1,
         1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/spec/models/food_spec.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/spec/models/food_spec.rb": [
         1,
         null,
         1,
@@ -851,7 +935,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/spec/models/log_spec.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/spec/models/log_spec.rb": [
         1,
         null,
         1,
@@ -860,7 +944,7 @@
         2,
         null
       ],
-      "/Users/Guest/Desktop/health_tracker/spec/models/user_spec.rb": [
+      "/Users/aileencacayorin/Desktop/health_tracker/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -868,6 +952,6 @@
         null
       ]
     },
-    "timestamp": 1446138509
+    "timestamp": 1446177144
   }
 }

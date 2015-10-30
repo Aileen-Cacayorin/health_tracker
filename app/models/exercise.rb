@@ -1,5 +1,5 @@
 class Exercise < ActiveRecord::Base
-  belongs_to :log
+  has_and_belongs_to_many :logs
 
   validates :name, :presence => true
   validates :duration, :presence => true

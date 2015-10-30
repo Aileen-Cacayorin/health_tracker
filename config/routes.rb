@@ -9,13 +9,9 @@ resources :users do
   resources :logs
 end
 
-resources :logs do
-  resources :exercises
-end
 
-resources :logs do
-  resources :foods
-end
+resources :exercises
+resources :foods
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

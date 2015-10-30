@@ -18,10 +18,10 @@
         <td id="food_name"><%= food.name %></td>
         <td id= "food_quantity" ><%= food.quantity %></td>
         <td id= "food_calories"><%= food.calories %></td>
-        <td id= "delete_food<"><%= button_to "Delete", log_food_path(food.log, food), method: :delete, remote: true %></td>
+        <td id= "delete_food<"><%= button_to "Delete", food_path(food), method: :delete, remote: true %></td>
       </tr>
     <% end %>
   </table>
 <% end %>
-<p><%= link_to "Add Food", new_log_food_path(@log), id: "new_food_link", remote: true %></p>
+<p><%= link_to "Add Food", new_food_path(:log => @log.id), id: "new_food_link" , remote: true %></p>
 </div>

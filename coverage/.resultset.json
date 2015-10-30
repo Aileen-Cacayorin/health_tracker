@@ -521,13 +521,9 @@
         1,
         null,
         null,
-        1,
-        1,
-        null,
         null,
         1,
         1,
-        null,
         null,
         null,
         null,
@@ -616,7 +612,6 @@
       "/Users/aileencacayorin/Desktop/health_tracker/app/controllers/foods_controller.rb": [
         1,
         1,
-        0,
         0,
         null,
         null,
@@ -952,6 +947,6 @@
         null
       ]
     },
-    "timestamp": 1446177144
+    "timestamp": 1446179437
   }
 }

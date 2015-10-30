@@ -1,14 +1,12 @@
 class FoodsController < ApplicationController
   def new
-    @log = Log.find(params[:log_id])
     @food = Food.new
   end
 
   def create
-    @log = Log.find(params[:log_id])
-    @food = Food.create(food_params)
-    @food.log = @log
-    @food.save
+    @log = Log.find(food_params[:log_id])
+    @food = Food.create(:name => food_params[:name], :quantity => food_params[:quantity], :calories => food_params[:calories])
+    @log.foods << @food
     respond_to do |format|
     format.html { redirect_to :back }
     format.js
@@ -26,7 +24,7 @@ class FoodsController < ApplicationController
 
 private
   def food_params
-    params.require(:food).permit(:name, :quantity, :calories)
+    params.require(:food).permit(:name, :quantity, :calories, :log_id)
   end
 
 end

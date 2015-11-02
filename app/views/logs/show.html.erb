@@ -3,8 +3,8 @@
 <div class="col-md-6">
 
 
-  <h3>Calories consumed today: <span id="calories"><%=@log.calories_consumed %></span></h3>
-
+  <h3>Total calories consumed today: <span id="calories"><%=@log.calories_consumed %></span></h3>
+  <h4>Food Consumed Today</h4>
   <table class="table" id="foods">
     <tr>
       <th>Food</th>
@@ -24,4 +24,33 @@
   </table>
 <% end %>
 <p><%= link_to "Add Food", new_food_path(:log => @log.id), id: "new_food_link" , remote: true %></p>
+</div>
+
+<br>
+
+
+<div class="col-md-6", >
+<h3>Food Database</h3>
+
+<table class="table">
+
+  <tr>
+    <th>Food</th>
+    <th>Quantity</th>
+    <th>Calories </th>
+  </tr>
+<% if @all_foods.any? %>
+<%= will_paginate @all_foods %>
+  <% @all_foods.each do |food| %>
+    <tr id="food_<%=food.id%>">
+      <td id="food_name"><%= food.name %></td>
+      <td id= "food_quantity" ><%= food.quantity %></td>
+      <td id= "food_calories"><%= food.calories %></td>
+      <td id= "add_food"><%= button_to "Add to log", food_path(food, :log_id => @log.id),  method: :patch, remote: true %></td>
+      <td id= "delete_food<"><%= button_to "Delete", food_path(food), method: :delete, remote: true %></td>
+    </tr>
+  <% end %>
+</table>
+<% end %>
+
 </div>

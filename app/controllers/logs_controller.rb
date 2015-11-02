@@ -23,6 +23,8 @@ class LogsController < ApplicationController
     @user = User.find(params[:user_id])
     @log = Log.find(params[:id])
     @foods = @log.foods.paginate(:per_page => 10, :page => params[:page])
-    @all_foods = Food.all.paginate(:per_page => 10, :page => params[:page])
+
+    @all_foods = Food.search(params[:search])
+
   end
 end

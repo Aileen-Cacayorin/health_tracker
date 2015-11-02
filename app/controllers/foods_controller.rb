@@ -14,7 +14,6 @@ class FoodsController < ApplicationController
   end
 
   def update
-    binding.pry
     @log = Log.find(params[:log_id])
     @food = Food.find(params[:id])
 

@@ -4,4 +4,12 @@ class Food < ActiveRecord::Base
   validates :name, :presence => true
   validates :quantity, :presence => true
   validates :calories, :presence => true
+
+  def self.search(search)
+    if search != ""
+      where('name LIKE ?', "%#{search}%")
+    else
+     []
+   end
+  end
 end
